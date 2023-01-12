@@ -1,13 +1,13 @@
 # Aplicación front-end de Rick y Morty con Vue, Vite y Tailwind CSS
 
-### Abrir esta app en el puerto 3020, http://localhost:3020
+### Después de hacer los pasos con docker esta app se abre en el puerto 3020, http://localhost:3020
 
 ### Mongo esta corriendo en el puerto 27020 
 
 ---
 # Aplicación back-end de Rick y Morty con Node, Express y MongoDB
 
-### Abrir esta app en el puerto 5120,  http://localhost:5120 
+### Después de hacer los pasos con docker esta app se abre en el puerto 5120,  http://localhost:5120 
 
 documentación de postman: https://documenter.getpostman.com/view/10033004/2s8ZDR9RmV
 
