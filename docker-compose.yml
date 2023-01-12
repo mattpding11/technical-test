@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  node:
+    container_name: pickle_rick_back
+    restart: always
+    build: pickle-rick-back/.
+    ports: 
+      - "3020:3000"
+    links:
+      - mongo
+
+  mongo:
+    container_name: mongo_database
+    image: mongo
+    ports:
+      - "27020:27017"
+    links:
+      - vue
+
+  vue:
+    container_name: pickle_rick_front
+    restart: always
+    build: pickle-rick-front/.
+    ports: 
+      - "5120:5173"
+  
