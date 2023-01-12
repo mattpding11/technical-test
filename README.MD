@@ -16,7 +16,7 @@ documentación de postman: https://documenter.getpostman.com/view/10033004/2s8ZD
 
 ### Para probarla se debe tener Docker instalado previamente con todos sus requisitos
 Pasos:
-- Descargar este repositorio
+- Descargar o clonar este repositorio
 - Ubicarse en el directorio raíz , es decir en este mismo que contiene la carpeta pickle-rick-front y pickle-rick-back y el archivo de docker-compose.yml
 - Abrir la consola de comandos en esta ubicación y escribir los siguientes comandos
 ```
