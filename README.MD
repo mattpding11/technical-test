@@ -29,7 +29,7 @@ docker-compose build
 docker-compose up
 ```
 
-Y eso es todo…
+Ya lo tienes…
 
 ---
 
