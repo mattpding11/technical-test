@@ -21,7 +21,7 @@ Pasos:
 
 Pasos:
 - Descargar o clonar este repositorio
-- Ubicarse en el directorio raíz , es decir en este mismo que contiene la carpeta pickle-rick-front y pickle-rick-back y el archivo de docker-compose.yml
+- Ubicarse en el directorio raíz ,es decir en este mismo proyecto que contiene la carpeta pickle-rick-front y pickle-rick-back y el archivo de docker-compose.yml
 - Abrir la consola de comandos en esta ubicación y escribir los siguientes comandos
 ```
 docker-compose build
