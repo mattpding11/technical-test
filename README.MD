@@ -16,6 +16,9 @@ documentación de postman: https://documenter.getpostman.com/view/10033004/2s8ZD
 
 ### Para probarla se debe tener Docker instalado previamente con todos sus requisitos
 Pasos:
+### Con los siguientes comandos se inicializará el proyecto de front, back y la base de datos en conjunto.
+### Después de esto solo que abrir la aplicación del front en el puerto previamente mencionado en este documento (http://localhost:5120)
+
 - Descargar o clonar este repositorio
 - Ubicarse en el directorio raíz , es decir en este mismo que contiene la carpeta pickle-rick-front y pickle-rick-back y el archivo de docker-compose.yml
 - Abrir la consola de comandos en esta ubicación y escribir los siguientes comandos
