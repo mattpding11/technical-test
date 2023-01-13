@@ -169,11 +169,15 @@ export default {
   },
   methods: {
     async init(){
-      const character = await this.getCharacter(this.id);
-      const comments = await this.getComments(this.id);
-      this.character = character;
-      this.numberComments = comments.length;
-      this.comments = comments;
+   try {
+        const character = await this.getCharacter(this.id);
+        const comments = await this.getComments(this.id);
+        this.character = character;
+        this.numberComments = comments.length;
+        this.comments = comments;
+      } catch (error) {
+        this.$router.replace("/character")
+      }
     },
     async getCharacter(id) {
       const res = await this.axios.get(this.baseURL + "/" + id);
