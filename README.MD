@@ -14,7 +14,7 @@ documentación de postman: https://documenter.getpostman.com/view/10033004/2s8ZD
 ---
 # Pasos para probar la app con Docker
 
-### Para probat toda la app se debe tener Docker instalado previamente con todos sus requisitos
+### Para probar esta app con docker se debe tener Docker instalado previamente con todos sus requisitos
 Pasos:
 ### Con los siguientes comandos se inicializará el proyecto de front, back y la base de datos en conjunto.
 ### Después de esto solo que abrir la aplicación del front en el puerto previamente mencionado en este documento (http://localhost:5120)
@@ -29,6 +29,15 @@ docker-compose build
 docker-compose up
 ```
 
+---
+
+# Despliegue online con railway
+
+######También se puede probar la aplicación online 
+
+#### Enlaces
+Front: https://pickle-rick-front-production.up.railway.app
+Back: https://pickle-rick-back-production.up.railway.app 
 
 ---
 
