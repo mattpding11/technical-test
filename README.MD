@@ -33,7 +33,7 @@ docker-compose up
 
 # Despliegue online con railway
 
-######También se puede probar la aplicación online 
+###### También se puede probar la aplicación online 
 
 #### Enlaces
 Front: https://pickle-rick-front-production.up.railway.app
